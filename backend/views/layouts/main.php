@@ -56,6 +56,10 @@ AppAsset::register($this);
                   'label'=>'Translate',
                    'url'=>['/translations']
                 ];
+                $menuItems[]=[
+                    'label'=>'Users',
+                    'url'=>['/user/index']
+                ];
                 $menuItems[] = [
                     'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
                     'url' => ['/site/logout'],
