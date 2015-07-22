@@ -1582,95 +1582,6 @@
         ]
     },
     {
-        "name": "bower-asset/semantic",
-        "version": "2.0.4",
-        "version_normalized": "2.0.4.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Semantic-Org/Semantic-UI.git",
-            "reference": "79738f8a6e9e911b1c7f2caba72b72d5409b99bd"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Semantic-Org/Semantic-UI/zipball/79738f8a6e9e911b1c7f2caba72b72d5409b99bd",
-            "reference": "79738f8a6e9e911b1c7f2caba72b72d5409b99bd",
-            "shasum": ""
-        },
-        "require": {
-            "bower-asset/jquery": ">=1.8"
-        },
-        "type": "bower-asset-library",
-        "extra": {
-            "bower-asset-main": [
-                "src/semantic.less",
-                "dist/semantic.js"
-            ],
-            "bower-asset-ignore": [
-                "src/site",
-                "test"
-            ]
-        },
-        "installation-source": "dist",
-        "license": [
-            "http://semantic-ui.mit-license.org/"
-        ],
-        "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
-        "keywords": [
-            "css3",
-            "framework",
-            "semantic",
-            "ui"
-        ]
-    },
-    {
-        "name": "zelenin/yii2-semantic-ui",
-        "version": "2.0.2",
-        "version_normalized": "2.0.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/zelenin/yii2-semantic-ui.git",
-            "reference": "f32a7a429b15d822c990307297544471aaf9689c"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/zelenin/yii2-semantic-ui/zipball/f32a7a429b15d822c990307297544471aaf9689c",
-            "reference": "f32a7a429b15d822c990307297544471aaf9689c",
-            "shasum": ""
-        },
-        "require": {
-            "bower-asset/semantic": "~2",
-            "yiisoft/yii2": "~2"
-        },
-        "time": "2015-07-17 23:02:37",
-        "type": "yii2-extension",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Zelenin\\yii\\SemanticUI\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Aleksandr Zelenin",
-                "email": "aleksandr@zelenin.me",
-                "homepage": "http://zelenin.me",
-                "role": "Developer"
-            }
-        ],
-        "description": "Semantic UI extension for Yii2",
-        "homepage": "https://github.com/zelenin/yii2-semantic-ui",
-        "keywords": [
-            "semantic",
-            "semantic ui",
-            "widgets",
-            "yii2"
-        ]
-    },
-    {
         "name": "zelenin/yii2-i18n-module",
         "version": "0.1.9",
         "version_normalized": "0.1.9.0",
@@ -1869,6 +1780,156 @@
             "translate-panel",
             "translation",
             "translations",
+            "yii2"
+        ]
+    },
+    {
+        "name": "bower-asset/semantic",
+        "version": "2.0.5",
+        "version_normalized": "2.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Semantic-Org/Semantic-UI.git",
+            "reference": "357aa8eeb19503ac671ba95e97fe61830b1c6d64"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Semantic-Org/Semantic-UI/zipball/357aa8eeb19503ac671ba95e97fe61830b1c6d64",
+            "reference": "357aa8eeb19503ac671ba95e97fe61830b1c6d64",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/jquery": ">=1.8"
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "src/semantic.less",
+                "dist/semantic.js"
+            ],
+            "bower-asset-ignore": [
+                "src/site",
+                "test"
+            ]
+        },
+        "installation-source": "dist",
+        "license": [
+            "http://semantic-ui.mit-license.org/"
+        ],
+        "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
+        "keywords": [
+            "css3",
+            "framework",
+            "semantic",
+            "ui"
+        ]
+    },
+    {
+        "name": "zelenin/yii2-semantic-ui",
+        "version": "2.0.3",
+        "version_normalized": "2.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zelenin/yii2-semantic-ui.git",
+            "reference": "421a3f6f2b41a3d498ebd62f5acede3d1ef52970"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zelenin/yii2-semantic-ui/zipball/421a3f6f2b41a3d498ebd62f5acede3d1ef52970",
+            "reference": "421a3f6f2b41a3d498ebd62f5acede3d1ef52970",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/semantic": "~2",
+            "yiisoft/yii2": "~2"
+        },
+        "time": "2015-07-19 18:04:30",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zelenin\\yii\\SemanticUI\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Aleksandr Zelenin",
+                "email": "aleksandr@zelenin.me",
+                "homepage": "http://zelenin.me",
+                "role": "Developer"
+            }
+        ],
+        "description": "Semantic UI extension for Yii2",
+        "homepage": "https://github.com/zelenin/yii2-semantic-ui",
+        "keywords": [
+            "semantic",
+            "semantic ui",
+            "widgets",
+            "yii2"
+        ]
+    },
+    {
+        "name": "2amigos/yii2-ckeditor-widget",
+        "version": "1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/2amigos/yii2-ckeditor-widget.git",
+            "reference": "023eb29fedfc3c3121c17688ed237e8688f5eb50"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/2amigos/yii2-ckeditor-widget/zipball/023eb29fedfc3c3121c17688ed237e8688f5eb50",
+            "reference": "023eb29fedfc3c3121c17688ed237e8688f5eb50",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "~2.0.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.*"
+        },
+        "time": "2015-04-30 12:22:25",
+        "type": "yii2-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            },
+            "asset-installer-paths": {
+                "bower-asset-library": "vendor/bower"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "dosamigos\\ckeditor\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "2amigOS! Consulting Group",
+                "email": "hola@2amigos.us",
+                "homepage": "http://2amigos.us",
+                "role": "Developer"
+            }
+        ],
+        "description": "CKEditor widget for Yii2.",
+        "homepage": "http://yiiwheels.com/extension/ckeditor-widget",
+        "keywords": [
+            "2amigos",
+            "CKEditor",
+            "extension",
+            "widget",
+            "yii",
+            "yii 2",
             "yii2"
         ]
     }

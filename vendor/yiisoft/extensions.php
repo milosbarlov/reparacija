@@ -120,15 +120,6 @@ return array (
       '@uran1980/yii/widgets/igrowl' => $vendorDir . '/uran1980/yii2-igrowl-widget',
     ),
   ),
-  'zelenin/yii2-semantic-ui' => 
-  array (
-    'name' => 'zelenin/yii2-semantic-ui',
-    'version' => '2.0.2.0',
-    'alias' => 
-    array (
-      '@Zelenin/yii/SemanticUI' => $vendorDir . '/zelenin/yii2-semantic-ui',
-    ),
-  ),
   'zelenin/yii2-i18n-module' => 
   array (
     'name' => 'zelenin/yii2-i18n-module',
@@ -157,5 +148,23 @@ return array (
       '@uran1980/yii/modules/i18n' => $vendorDir . '/uran1980/yii2-translate-panel',
     ),
     'bootstrap' => 'uran1980\\yii\\modules\\i18n\\Bootstrap',
+  ),
+  'zelenin/yii2-semantic-ui' => 
+  array (
+    'name' => 'zelenin/yii2-semantic-ui',
+    'version' => '2.0.3.0',
+    'alias' => 
+    array (
+      '@Zelenin/yii/SemanticUI' => $vendorDir . '/zelenin/yii2-semantic-ui',
+    ),
+  ),
+  '2amigos/yii2-ckeditor-widget' => 
+  array (
+    'name' => '2amigos/yii2-ckeditor-widget',
+    'version' => '1.0.4.0',
+    'alias' => 
+    array (
+      '@dosamigos/ckeditor' => $vendorDir . '/2amigos/yii2-ckeditor-widget/src',
+    ),
   ),
 );

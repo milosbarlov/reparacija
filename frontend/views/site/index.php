@@ -388,7 +388,6 @@ use yii\helpers\Url;
                 <?php if(!empty($contact)){?>
                     <p><img src="/images/location.png" alt="icon 1" /><?php echo Yii::t('app',$contact->title)?></p>
                     <p><img src="/images/phone1.png"  alt="icon 2" /><?php echo Yii::t('app',$contact->content) ?></p>
-                    <p><img src="/images/globe.png" alt="icon 3" /><a class="link_orange" href="<?php echo $contact->excerpt?>" target="_blank"><span class="txt_orange"><?php echo Yii::t('app',$contact->excerpt)?></span></a></p>
                     <form class="form-horizontal" action="<?php echo Url::toRoute('site/contact')?>" method="POST">
                         <div class="form-group">
                             <input type="text" name="ContactForm['name']" class="form-control" placeholder="Your Name..." maxlength="40" />
@@ -412,6 +411,68 @@ use yii\helpers\Url;
         </div><!-- /.row -->
     </div><!-- /.container -->
 </div><!-- /#templatemo-contact -->
+
+<div class="templatemo-partners" >
+    <div class="container">
+        <div class="row">
+
+
+            <div class="templatemo-line-header" >
+                <div class="text-center">
+                    <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey" style="text-transform: uppercase;"><?php  echo Yii::t('app','Naši partneri')?></span>
+                    <hr class="team_hr team_hr_right hr_gray" />
+                </div>
+            </div>
+            <div class="clearfix"></div>
+
+
+            <div class="text-center">
+
+                <div style="margin-top:60px;">
+                    <ul class="list-inline">
+                        <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                            <a href="#"><img src="images/partner1.jpg" class="img-responsive" alt="partner 1" /></a>
+                        </li>
+                        <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                            <a href="#"><img src="images/partner2.jpg" class="img-responsive" alt="partner 2" /></a>
+                        </li>
+                        <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                            <a href="#"><img src="images/partner3.jpg" class="img-responsive" alt="partner 3" /></a>
+                        </li>
+                        <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                            <a href="#"><img src="images/partner4.jpg" class="img-responsive" alt="partner 4" /></a>
+                        </li>
+                        <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                            <a href="#"><img src="images/partner5.jpg" class="img-responsive" alt="partner 5" /></a>
+                        </li>
+                        <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                            <a href="#"><img src="images/partner6.jpg" class="img-responsive" alt="partner 6" /></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="templatemo-footer" >
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+
+                <div class="footer_container">
+                    <a class="btn btn-lg btn-orange" href="#" role="button" id="btn-back-to-top" style="text-transform: uppercase"><?php echo Yii::t('app','Vrati se na početak')?></a>
+                    <div class="height30"></div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
 
 <script>
     window.onload = function(){

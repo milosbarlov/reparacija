@@ -21,7 +21,7 @@ jQuery(function($) {
         // scroll to top
         $('#btn-back-to-top').click(function(e){
             e.preventDefault();
-            scrollTo('#templatemo-top');
+            scrollTo('#templatemo-carousel');
         });
 
         // scroll to specific id when click on menu

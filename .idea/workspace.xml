@@ -2,15 +2,157 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54c5fc30-2cc6-4ad1-ab79-529e31ecb117" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/config/main-local.template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/config/main-local.template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/main-local.template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/config/main-local.template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/config/params-local.template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/config/params-local.template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/params-local.template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/config/params-local.template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zxbodya/yii2-elfinder" afterPath="$PROJECT_DIR$/vendor/zxbodya/yii2-elfinder" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zelenin/yii2-semantic-ui/collections/Menu.php" afterPath="$PROJECT_DIR$/vendor/zelenin/yii2-semantic-ui/collections/Menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/RELEASE-NOTES.md" afterPath="$PROJECT_DIR$/vendor/bower/semantic/RELEASE-NOTES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/views/content/about_us.php" afterPath="$PROJECT_DIR$/backend/views/content/about_us.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/accordion.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/accordion.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/accordion.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/accordion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/accordion.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/accordion.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/accordion.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/accordion.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/ad.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/ad.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/ad.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/ad.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/api.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/src/definitions/behaviors/api.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/src/definitions/behaviors/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/api.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/api.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/breadcrumb.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/breadcrumb.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/breadcrumb.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/breadcrumb.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/button.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/button.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/button.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/button.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/card.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/card.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/card.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/card.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/checkbox.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/checkbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/checkbox.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/checkbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/src/definitions/modules/checkbox.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/src/definitions/modules/checkbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/src/definitions/modules/checkbox.less" afterPath="$PROJECT_DIR$/vendor/bower/semantic/src/definitions/modules/checkbox.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/checkbox.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/checkbox.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/checkbox.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/checkbox.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/comment.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/comment.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/comment.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/comment.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/container.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/container.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/container.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/container.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dimmer.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dimmer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dimmer.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dimmer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dimmer.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dimmer.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dimmer.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dimmer.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/divider.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/divider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/divider.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/divider.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dropdown.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dropdown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dropdown.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/src/definitions/modules/dropdown.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/src/definitions/modules/dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dropdown.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dropdown.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dropdown.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/dropdown.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/embed.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/embed.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/embed.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/embed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/embed.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/embed.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/embed.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/embed.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" afterPath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/feed.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/feed.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/feed.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/feed.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/flag.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/flag.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/flag.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/flag.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/form.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/form.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/form.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/form.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/form.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/form.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/form.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/grid.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/grid.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/grid.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/header.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/header.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/header.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/icon.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/icon.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/icon.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/image.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/image.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/image.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/image.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/site/index.php" afterPath="$PROJECT_DIR$/frontend/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/input.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/input.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/input.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/input.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/item.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/item.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/item.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/item.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/label.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/label.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/label.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/label.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/list.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/list.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/list.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/list.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/loader.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/loader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/loader.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/loader.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/message.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/message.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/src/definitions/collections/message.less" afterPath="$PROJECT_DIR$/vendor/bower/semantic/src/definitions/collections/message.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/message.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/message.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/modal.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/modal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/modal.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/modal.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/modal.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/modal.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/modal.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/nag.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/nag.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/nag.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/nag.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/nag.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/nag.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/nag.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/nag.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/package.json" afterPath="$PROJECT_DIR$/vendor/bower/semantic/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/popup.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/popup.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/popup.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/popup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/popup.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/popup.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/popup.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/popup.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/progress.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/progress.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/progress.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/progress.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/progress.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/progress.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/progress.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/progress.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/rail.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/rail.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/rail.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/rail.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/rating.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/rating.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/rating.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/rating.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/rating.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/rating.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/rating.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/rating.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/reset.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/reset.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/reset.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/reveal.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/reveal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/reveal.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/reveal.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/search.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/search.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/search.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/search.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/search.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/search.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/search.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/segment.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/segment.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/segment.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/segment.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/semantic.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/semantic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/semantic.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/semantic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/semantic.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/semantic.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/semantic.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/semantic.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/shape.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/shape.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/shape.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/shape.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/shape.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/shape.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/shape.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/shape.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sidebar.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sidebar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sidebar.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sidebar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sidebar.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sidebar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sidebar.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sidebar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/site.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/site.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/site.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/site.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/site.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/site.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/site.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/site.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/state.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/state.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/state.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/statistic.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/statistic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/statistic.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/statistic.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/step.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/step.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/step.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/step.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sticky.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sticky.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sticky.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sticky.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sticky.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sticky.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sticky.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/sticky.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/tab.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/tab.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/tab.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/tab.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/tab.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/tab.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/tab.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/table.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/table.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/table.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/table.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/web/js/templatemo_script.js" afterPath="$PROJECT_DIR$/frontend/web/js/templatemo_script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/transition.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/transition.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/transition.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/transition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/transition.min.css" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/transition.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/transition.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/transition.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/visibility.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/visibility.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/visibility.min.js" afterPath="$PROJECT_DIR$/vendor/bower/semantic/dist/components/visibility.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="carpet.iws" />
@@ -32,7 +174,22 @@
     <favorites_list name="carpet" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/views/site/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="12.280405">
+              <caret line="466" column="175" selection-start-line="466" selection-start-column="168" selection-end-line="466" selection-end-column="175" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#7;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +203,6 @@
         <option value="$PROJECT_DIR$/common/models/search/MainGallerySearch.php" />
         <option value="$PROJECT_DIR$/backend/views/content/mainGallery.php" />
         <option value="$PROJECT_DIR$/backend/views/content/mainGalleryIndex.php" />
-        <option value="$PROJECT_DIR$/backend/views/content/about_us.php" />
         <option value="$PROJECT_DIR$/common/models/search/ProductGallery.php" />
         <option value="$PROJECT_DIR$/common/models/search/ProductGallerySearch.php" />
         <option value="$PROJECT_DIR$/backend/views/content/create.php" />
@@ -63,21 +219,18 @@
         <option value="$PROJECT_DIR$/common/models/MainGallery.php" />
         <option value="$PROJECT_DIR$/common/models/ProductGallery.php" />
         <option value="$PROJECT_DIR$/backend/web/.htaccess" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/frontend/assets/AppAsset.php" />
         <option value="$PROJECT_DIR$/frontend/web/css/templatemo_style.css" />
         <option value="$PROJECT_DIR$/backend/views/content/index.php" />
         <option value="$PROJECT_DIR$/backend/views/content/viewMainGallery.php" />
         <option value="$PROJECT_DIR$/common/models/MainGalleryItems.php" />
         <option value="$PROJECT_DIR$/common/models/ProductGalleryItem.php" />
-        <option value="$PROJECT_DIR$/frontend/web/js/templatemo_script.js" />
         <option value="$PROJECT_DIR$/backend/config/main.php" />
         <option value="$PROJECT_DIR$/frontend/config/params.php" />
         <option value="$PROJECT_DIR$/frontend/models/ContactForm.php" />
         <option value="$PROJECT_DIR$/frontend/config/main.php" />
         <option value="$PROJECT_DIR$/frontend/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/backend/controllers/ContentController.php" />
-        <option value="$PROJECT_DIR$/frontend/views/site/index.php" />
         <option value="$PROJECT_DIR$/console/migrations/m150721_104443_isert_user_table.php" />
         <option value="$PROJECT_DIR$/backend/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/common/config/main.php" />
@@ -89,6 +242,10 @@
         <option value="$PROJECT_DIR$/common/models/User.php" />
         <option value="$PROJECT_DIR$/backend/config/main-local.php" />
         <option value="$PROJECT_DIR$/backend/config/main-local.template.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/backend/views/content/about_us.php" />
+        <option value="$PROJECT_DIR$/frontend/web/js/templatemo_script.js" />
+        <option value="$PROJECT_DIR$/frontend/views/site/index.php" />
       </list>
     </option>
   </component>
@@ -151,6 +308,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="carpet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carpet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carpet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carpet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carpet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carpet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carpet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carpet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carpet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,19 +454,25 @@
       <option name="project" value="LOCAL" />
       <updated>1437479248973</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change">
+      <created>1437500395511</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1437500395512</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="1317" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5278638" sideWeight="0.49724627" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31864673" sideWeight="0.50928795" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296617" sideWeight="0.52167183" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31864673" sideWeight="0.49071208" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296617" sideWeight="0.47832817" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5278638" sideWeight="0.50275373" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -258,25 +489,26 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="149" y="96" width="1117" height="572" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5278638" sideWeight="0.49724627" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5278638" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5278638" sideWeight="0.50275373" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3076318" sideWeight="0.49690402" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3241542" sideWeight="0.51547986" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3076318" sideWeight="0.503096" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3241542" sideWeight="0.48452014" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -301,20 +533,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/models/MainGalleryItems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6031746">
-          <caret line="33" column="5" selection-start-line="18" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/content/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8935811">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/config/main-local.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6081081">
@@ -361,13 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="444" selection-start-line="0" selection-start-column="444" selection-end-line="0" selection-end-column="444" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/web/js/templatemo_script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72727275">
-          <caret line="81" column="66" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -424,13 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2820946">
-          <caret line="202" column="29" selection-start-line="202" selection-start-column="29" selection-end-line="202" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -536,7 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,7 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,7 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.091216214">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,7 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,7 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,9 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="62" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
-          <folding>
-            <element signature="e#32#40#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6666665">
           <caret line="10" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.666667">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,7 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,7 +859,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27482268">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/content/about_us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.793919">
+          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+          <folding>
+            <element signature="e#7#28#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/web/js/templatemo_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="12.280405">
+          <caret line="466" column="175" selection-start-line="466" selection-start-column="168" selection-end-line="466" selection-end-column="175" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#7;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,6 +3,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\widgets\DetailView;
+use dosamigos\ckeditor\CKEditor;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Content */
@@ -54,7 +55,12 @@ use yii\widgets\DetailView;
 
     <?= $form->field($model, 'excerpt')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'content')->textarea(['maxlength' => true,'style'=>'height:280px']) ?>
+    <?= $form->field($model, 'content')->widget(CKEditor::className(), [
+        'options' => ['rows' => 30],
+        'preset' => 'full'
+    ]) ?>
+
+
 
 
 

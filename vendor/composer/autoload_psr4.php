@@ -23,6 +23,7 @@ return array(
     'uran1980\\yii\\bootstrapConfirmation\\' => array($vendorDir . '/uran1980/yii2-bootstrap-confirmation'),
     'uran1980\\yii\\assets\\jQueryEssential\\' => array($vendorDir . '/uran1980/yii2-jquery-essential'),
     'rmrevin\\yii\\fontawesome\\' => array($vendorDir . '/rmrevin/yii2-fontawesome'),
+    'dosamigos\\ckeditor\\' => array($vendorDir . '/2amigos/yii2-ckeditor-widget/src'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),
     'Zelenin\\yii\\modules\\I18n\\' => array($vendorDir . '/zelenin/yii2-i18n-module'),
     'Zelenin\\yii\\SemanticUI\\' => array($vendorDir . '/zelenin/yii2-semantic-ui'),
