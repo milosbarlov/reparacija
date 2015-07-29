@@ -67,11 +67,15 @@ jQuery(function($) {
 
 function initialize() {
     var mapOptions = {
-      zoom: 12,
-      center: new google.maps.LatLng(16.8451789,96.1439764)
+      zoom: 16,
+      center: new google.maps.LatLng(44.8212462,20.3872845)
     };
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(44.8212462,20.3872845)
+    });
 
     var map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
+    marker.setMap(map);
 }
 
 // scroll animation 

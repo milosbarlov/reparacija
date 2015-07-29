@@ -2,23 +2,29 @@
 /**
  * Created by PhpStorm.
  * User: Milos Barlov <mbarlov> milosbarlov@gmail.com
- * Date: 16.7.15. \
- * Time: 20.57
+ * Date: 28.7.15. \
+ * Time: 14.54
  */
 
 namespace common\models;
 
 
-class Contact extends Content
+class Partner extends Content
 {
+
+    public static function find()
+    {
+        return parent::find()->where('type = 7');
+    }
+
     public function attributeLabels()
     {
         return [
             'id' => 'ID',
             'parent_id' => 'Parent ID',
-            'title' => 'Address',
-            'excerpt' => 'FB URL',
-            'content' => 'Telephone',
+            'title' => 'Title',
+            'excerpt' => 'Partner Name',
+            'content' => 'URL',
             'created_by' => 'Created By',
             'create_time' => 'Create Time',
             'updated_by' => 'Updated By',
@@ -28,16 +34,10 @@ class Contact extends Content
         ];
     }
 
-    public static function find()
-    {
-        return parent::find()->where('type = 6');
-    }
-
-
     public function beforeSave($insert)
     {
         if (parent::beforeSave($insert)) {
-            $this->type = 6;
+            $this->type = 7;
             $this->updated_by = \Yii::$app->user->identity->id;
             return true;
         } else {

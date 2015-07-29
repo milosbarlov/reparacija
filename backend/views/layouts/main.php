@@ -53,6 +53,10 @@ AppAsset::register($this);
                     'url'=>['/content/contact']
                 ];
                 $menuItems[]=[
+                    'label'=>'Partners'  ,
+                    'url'=>['/content/partner-index']
+                ];
+                $menuItems[]=[
                   'label'=>'Translate',
                    'url'=>['/translations']
                 ];

@@ -11,6 +11,7 @@ use common\models\MainGallery;
 use common\models\AboutUs;
 use common\models\ProductGallery;
 use yii\helpers\Json;
+use common\models\Partner;
 /**
  * Site controller
  */
@@ -82,12 +83,14 @@ class SiteController extends Controller
         $aboutUs = AboutUs::find()->one();
         $productGallery = ProductGallery::find()->andWhere(['status'=>1])->all();
         $contact = Contact::find()->one();
+        $partners = Partner::find()->andWhere(['status'=>'1'])->all();
 
         return $this->render('index',[
             'mainGallery'=>$mainGallery,
             'aboutUs'=>$aboutUs,
             'productGallery'=>$productGallery,
             'contact'=>$contact,
+            'partners'=>$partners,
         ]);
     }
 

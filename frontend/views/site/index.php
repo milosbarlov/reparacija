@@ -15,7 +15,8 @@ use yii\helpers\Url;
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="#" class="navbar-brand"><img src="/images/templatemo_logo.png" alt="Urbanic template" title="Urbanic Template" /></a>
+                 <!--   <a href="#" class="navbar-brand"><img src="/images/templatemo_logo.png" alt="Urbanic template" title="Urbanic Template" /></a> -->
+                  <h2 style="text-transform: uppercase;position:relative;top:18px;color:#ff7600">reparacija i popravka persijskih tepiha</h2>
                 </div>
                 <div class="navbar-collapse collapse" id="templatemo-nav-bar">
                     <ul class="nav navbar-nav navbar-right" style="margin-top: 40px;">
@@ -113,78 +114,9 @@ use yii\helpers\Url;
             <?php }?>
         </div>
 
-        <!--
-            <ul class="row row_team">
-                <li class="col-lg-3 col-md-3 col-sm-6 ">
-                    <div class="text-center">
-                        <div class="member-thumb">
-                            <img src="images/member1.jpg" class="img-responsive" alt="member 1" />
-                            <div class="thumb-overlay">
-                                <a href="#"><span class="social-icon-fb"></span></a>
-                                <a href="#"><span class="social-icon-twitter"></span></a>
-                                <a href="#"><span class="social-icon-linkedin"></span></a>
-                            </div>
-                        </div>
-                        <div class="team-inner">
-                            <p class="team-inner-header">TRACY</p>
-                            <p class="team-inner-subtext">Designer</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="col-lg-3 col-md-3 col-sm-6 ">
-                    <div class="text-center">
-                        <div class="member-thumb">
-                            <img src="images/member2.jpg" class="img-responsive" alt="member 2" />
-                            <div class="thumb-overlay">
-                                <a href="#"><span class="social-icon-fb"></span></a>
-                                <a href="#"><span class="social-icon-twitter"></span></a>
-                                <a href="#"><span class="social-icon-linkedin"></span></a>
-                            </div>
-                        </div>
-                        <div class="team-inner">
-                            <p class="team-inner-header">MARY</p>
-                            <p class="team-inner-subtext">Developer</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="col-lg-3 col-md-3 col-sm-6 ">
-                    <div class="text-center">
-                        <div class="member-thumb">
-                            <img src="images/member3.jpg" class="img-responsive" alt="member 3" />
-                            <div class="thumb-overlay">
-                                <a href="#"><span class="social-icon-fb"></span></a>
-                                <a href="#"><span class="social-icon-twitter"></span></a>
-                                <a href="#"><span class="social-icon-linkedin"></span></a>
-                            </div>
-                        </div>
-                        <div class="team-inner">
-                            <p class="team-inner-header">JULIA</p>
-                            <p class="team-inner-subtext">Director</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="col-lg-3 col-md-3 col-sm-6 ">
-                    <div class="text-center">
-                        <div class="member-thumb">
-                            <img src="images/member4.jpg" class="img-responsive" alt="member 4" />
-                            <div class="thumb-overlay">
-                                <a href="#"><span class="social-icon-fb"></span></a>
-                                <a href="#"><span class="social-icon-twitter"></span></a>
-                                <a href="#"><span class="social-icon-linkedin"></span></a>
-                            </div>
-                        </div>
-                        <div class="team-inner">
-                            <p class="team-inner-header">LINDA</p>
-                            <p class="team-inner-subtext">Manager</p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-
-            -->
     </div>
 </div><!-- /.templatemo-team -->
-
+<?php if(!empty($productGallery)){?>
 <div id="templatemo-portfolio" >
     <div class="container">
         <div class="row">
@@ -207,8 +139,7 @@ use yii\helpers\Url;
 
             <ul class="templatemo-project-gallery" >
 
-                <?php if(!empty($productGallery)){
-                        foreach($productGallery as $product){?>
+                <?php foreach($productGallery as $product){?>
                             <li class="col-lg-2 col-md-2 col-sm-2 gallery <?php echo 'gallery-'.$product->id ?>">
                                 <a class="colorbox" href="<?php echo $product->content ?>" data-group="<?php echo 'gallery-'.$product->id ?>">
                                     <div class="templatemo-project-box">
@@ -220,156 +151,19 @@ use yii\helpers\Url;
                                 <?php if(!empty($product->galleryItems)){
                                     foreach($product->galleryItems as $key=>$val){?>
                                         <a class="colorbox" href="<?php echo $val['content'] ?>" data-group="<?php echo 'gallery-'.$product->id ?>"></a>
-                                <?php }} ?>
+                                <?php } ?>
                             </div>
                 <?php }}?>
-                <!--
-                                            <li class="col-lg-2 col-md-2 col-sm-2  gallery  graphic" >
-                                                <a class="colorbox" href="img1.jpg" data-group="graphic">
-                                                    <div class="templatemo-project-box">
-
-                                                        <img src="img1.jpg" class="img-responsive" alt="gallery" style='height:100%' />
-
-
-                                                    </div>
-                                                </a>
-                                            </li>
-
-                                                            <div class="hidden">
-                                                                <a class="colorbox" href="img1.jpg" data-group="graphic"></a>
-                                                                <a class="colorbox" href="img2.jpg" data-group="graphic"></a>
-                                                                <a class="colorbox" href="img3.jpg" data-group="graphic"></a>
-                                                            </div>
-
-
-                                                                                     <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-creative" >
-                                                                                         <a class="colorbox" href="images/full-gallery-image-2.jpg" data-group="gallery-creative">
-                                                                                             <div class="templatemo-project-box">
-                                                                                                 <img src="images/gallery-image-2.jpg" class="img-responsive" alt="gallery" />
-                                                                                                 <div class="project-overlay">
-                                                                                                     <h5>Creative</h5>
-                                                                                                     <hr />
-                                                                                                     <h4>BREAKFAST</h4>
-                                                                                                 </div>
-                                                                                             </div>
-                                                                                         </a>
-                                                                                     </li>
-
-                                                                                     <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration" >
-
-                                                                                         <a class="colorbox" href="images/full-gallery-image-3.jpg" data-group="gallery-inspiration">
-                                                                                             <div class="templatemo-project-box">
-                                                                                                 <img src="images/gallery-image-3.jpg" class="img-responsive" alt="gallery" />
-                                                                                                 <div class="project-overlay">
-                                                                                                     <h5>Inspiration</h5>
-                                                                                                     <hr />
-                                                                                                     <h4>GREEN COLORS</h4>
-                                                                                                 </div>
-                                                                                             </div>
-                                                                                         </a>
-
-                                                                                     </li>
-
-                                                                                     <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-design" >
-                                                                                         <a class="colorbox" href="images/full-gallery-image-4.jpg" data-group="gallery-design">
-                                                                                             <div class="templatemo-project-box">
-                                                                                                 <img src="images/gallery-image-4.jpg" class="img-responsive" alt="gallery" />
-                                                                                                 <div class="project-overlay">
-                                                                                                     <h5>Web Design</h5>
-                                                                                                     <hr />
-                                                                                                     <h4>CAMERA</h4>
-                                                                                                 </div>
-                                                                                             </div>
-                                                                                         </a>
-                                                                                     </li>
-                                                                                     <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration" >
-                                                                                         <a class="colorbox" href="images/full-gallery-image-5.jpg" data-group="gallery-inspiration">
-                                                                                             <div class="templatemo-project-box">
-                                                                                                 <img src="images/gallery-image-5.jpg" class="img-responsive" alt="gallery" />
-                                                                                                 <div class="project-overlay">
-                                                                                                     <h5>Inspiration</h5>
-                                                                                                     <hr />
-                                                                                                     <h4>PLANT</h4>
-                                                                                                 </div>
-                                                                                             </div>
-                                                                                         </a>
-                                                                                     </li>
-                                                                                     <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration" >
-                                                                                         <a class="colorbox" href="images/full-gallery-image-6.jpg" data-group="gallery-inspiration">
-                                                                                             <div class="templatemo-project-box">
-                                                                                                 <img src="images/gallery-image-6.jpg" class="img-responsive" alt="gallery" />
-                                                                                                 <div class="project-overlay">
-                                                                                                     <h5>Inspiration</h5>
-                                                                                                     <hr />
-                                                                                                     <h4>CABLE TRAIN</h4>
-                                                                                                 </div>
-                                                                                             </div>
-                                                                                         </a>
-                                                                                     </li>
-
-                                                                                     <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-design" >
-                                                                                         <a class="colorbox" href="images/full-gallery-image-7.jpg" data-group="gallery-design">
-                                                                                             <div class="templatemo-project-box">
-                                                                                                 <img src="images/gallery-image-7.jpg" class="img-responsive" alt="gallery" />
-                                                                                                 <div class="project-overlay">
-                                                                                                     <h5>Web Design</h5>
-                                                                                                     <hr />
-                                                                                                     <h4>CITY</h4>
-                                                                                                 </div>
-                                                                                             </div>
-                                                                                         </a>
-                                                                                     </li>
-
-                                                                                     <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-creative" >
-                                                                                         <a class="colorbox" href="images/full-gallery-image-8.jpg" data-group="gallery-creative">
-                                                                                             <div class="templatemo-project-box">
-                                                                                                 <img src="images/gallery-image-8.jpg" class="img-responsive" alt="gallery" />
-                                                                                                 <div class="project-overlay">
-                                                                                                     <h5>Creative</h5>
-                                                                                                     <hr />
-                                                                                                     <h4>BIRDS</h4>
-                                                                                                 </div>
-                                                                                             </div>
-                                                                                         </a>
-                                                                                     </li>
-
-                                                                                     <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-graphic" >
-                                                                                         <a class="colorbox" href="images/full-gallery-image-9.jpg" data-group="gallery-graphic">
-                                                                                             <div class="templatemo-project-box">
-                                                                                                 <img src="images/gallery-image-9.jpg" class="img-responsive" alt="gallery" />
-                                                                                                 <div class="project-overlay">
-                                                                                                     <h5>Graphic</h5>
-                                                                                                     <hr />
-                                                                                                     <h4>NATURE</h4>
-                                                                                                 </div>
-                                                                                             </div>
-                                                                                         </a>
-                                                                                     </li>
-
-                                                                                     <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-inspiration" >
-                                                                                         <a class="colorbox" href="images/full-gallery-image-10.jpg" data-group="gallery-inspiration">
-                                                                                             <div class="templatemo-project-box">
-                                                                                                 <img src="images/gallery-image-10.jpg" class="img-responsive" alt="gallery" />
-                                                                                                 <div class="project-overlay">
-                                                                                                     <h5>Inspiration</h5>
-                                                                                                     <hr />
-                                                                                                     <h4>DOGGY</h4>
-                                                                                                 </div>
-                                                                                             </div>
-                                                                                         </a>
-                                                                                     </li>
-                                                                                     -->
 
             </ul><!-- /.gallery -->
         </div>
+        <?php }?>
         <div class="clearfix"></div>
 
     </div><!-- /.container -->
 </div> <!-- /.templatemo-portfolio -->
 
-
-
-<div id="templatemo-contact" style='margin-bottom:30px;'>
+<div id="templatemo-contact" style='margin-bottom:30px;border:none'>
     <div class="container">
         <div class="row">
             <div class="templatemo-line-header head_contact">
@@ -388,6 +182,8 @@ use yii\helpers\Url;
                 <?php if(!empty($contact)){?>
                     <p><img src="/images/location.png" alt="icon 1" /><?php echo Yii::t('app',$contact->title)?></p>
                     <p><img src="/images/phone1.png"  alt="icon 2" /><?php echo Yii::t('app',$contact->content) ?></p>
+                    <p><img src="/images/fb.png"  alt="fb" /><a href="<?php echo $contact->excerpt?>" style="color:rgb(51, 51, 51);margin-left:3px;" target="_blank"><?php echo Yii::t('app',$contact->excerpt)?></a></p>
+
                     <form class="form-horizontal" action="<?php echo Url::toRoute('site/contact')?>" method="POST">
                         <div class="form-group">
                             <input type="text" name="ContactForm['name']" class="form-control" placeholder="Your Name..." maxlength="40" />
@@ -412,7 +208,8 @@ use yii\helpers\Url;
     </div><!-- /.container -->
 </div><!-- /#templatemo-contact -->
 
-<div class="templatemo-partners" >
+<?php if(!empty($partners)){?>
+<div class="templatemo-partners" style="border:none" >
     <div class="container">
         <div class="row">
 
@@ -430,24 +227,11 @@ use yii\helpers\Url;
 
                 <div style="margin-top:60px;">
                     <ul class="list-inline">
-                        <li class="col-sm-2 col-md-2 templatemo-partner-item">
-                            <a href="#"><img src="images/partner1.jpg" class="img-responsive" alt="partner 1" /></a>
-                        </li>
-                        <li class="col-sm-2 col-md-2 templatemo-partner-item">
-                            <a href="#"><img src="images/partner2.jpg" class="img-responsive" alt="partner 2" /></a>
-                        </li>
-                        <li class="col-sm-2 col-md-2 templatemo-partner-item">
-                            <a href="#"><img src="images/partner3.jpg" class="img-responsive" alt="partner 3" /></a>
-                        </li>
-                        <li class="col-sm-2 col-md-2 templatemo-partner-item">
-                            <a href="#"><img src="images/partner4.jpg" class="img-responsive" alt="partner 4" /></a>
-                        </li>
-                        <li class="col-sm-2 col-md-2 templatemo-partner-item">
-                            <a href="#"><img src="images/partner5.jpg" class="img-responsive" alt="partner 5" /></a>
-                        </li>
-                        <li class="col-sm-2 col-md-2 templatemo-partner-item">
-                            <a href="#"><img src="images/partner6.jpg" class="img-responsive" alt="partner 6" /></a>
-                        </li>
+                        <?php foreach($partners as $partner){?>
+                            <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                                <a href="<?php echo $partner['content']?>" style="font-size: 30px;color:#ff7600" target="_blank"><?php echo $partner['excerpt']?></a>
+                            </li>
+                        <?php }?>
                     </ul>
 
                 </div>
@@ -457,18 +241,15 @@ use yii\helpers\Url;
     </div>
 </div>
 
-
-<div class="templatemo-footer" >
+<?php }?>
+<div class="templatemo-footer" style="">
     <div class="container">
         <div class="row">
             <div class="text-center">
-
                 <div class="footer_container">
                     <a class="btn btn-lg btn-orange" href="#" role="button" id="btn-back-to-top" style="text-transform: uppercase"><?php echo Yii::t('app','Vrati se na početak')?></a>
                     <div class="height30"></div>
                 </div>
-
-
             </div>
         </div>
     </div>

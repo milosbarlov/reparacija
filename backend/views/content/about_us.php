@@ -57,10 +57,8 @@ use dosamigos\ckeditor\CKEditor;
 
     <?= $form->field($model, 'content')->widget(CKEditor::className(), [
         'options' => ['rows' => 30],
-        'preset' => 'full'
+        'preset' => 'full',
     ]) ?>
-
-
 
 
 

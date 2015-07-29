@@ -18,6 +18,8 @@ use common\models\ProductGallery;
 use common\models\ProductGalleryItem;
 use common\models\search\ProductGallerySearch;
 use common\models\Contact;
+use common\models\Partner;
+use common\models\search\PartnerSearch;
 
 /**
  * ContentController implements the CRUD actions for Content model.
@@ -299,6 +301,69 @@ class ContentController extends Controller
 
     }
 
+    public function actionPartnerIndex()
+    {
+        $searchModel = new PartnerSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+        return $this->render('partnerIndex', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
+    }
+
+    public function actionPartnerView($id){
+        $model = $this->findModel($id);
+
+        return $this->render('partnerView',[
+            'model'=>$model,
+        ]);
+    }
+
+    public function actionPartnerCreate(){
+        $model = new Partner();
+
+        if(Yii::$app->request->isPost){
+            $model->attributes = Yii::$app->request->post('Partner');
+            $model->title = 'title';
+            $model->created_by = Yii::$app->user->identity->id;
+            if($model->save()){
+                return $this->redirect(['content/partner-view','id'=>$model->id]);
+            }else{
+                print_r($model->errors);exit();
+            }
+        }
+
+        return $this->render('partnerCreate',[
+            'model'=>$model,
+        ]);
+    }
+
+    public function actionPartnerUpdate($id)
+    {
+        $model = Partner::findOne($id);
+
+        if(Yii::$app->request->isPost){
+            $model->attributes = Yii::$app->request->post('Partner');
+            $model->title = 'title';
+            if($model->save()){
+                return $this->redirect(['content/partner-view','id'=>$model->id]);
+            }else{
+                print_r($model->errors);exit();
+            }
+        }
+
+        return $this->render('partnerUpdate',[
+            'model'=>$model,
+        ]);
+    }
+
+    public function actionPartnerDelete($id)
+    {
+        if($this->findModel($id)->delete()){
+            return $this->redirect(['content/partner-index']);
+        }
+    }
 
 
 
