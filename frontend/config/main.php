@@ -17,6 +17,10 @@ return [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
         ],
+        'mail' => [
+            'class' => 'yii\swiftmailer\Mailer',
+            'userFileTransport'=>false,
+        ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
