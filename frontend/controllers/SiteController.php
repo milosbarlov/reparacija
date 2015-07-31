@@ -118,17 +118,22 @@ class SiteController extends Controller
         return $this->goHome();
     }
     */
-    public $enableCsrfValidation = false;
+   // public $enableCsrfValidation = false;
 
     public function actionContact()
     {
         $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-            if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
-                Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
+        if (Yii::$app->request->isPost) {
+            $model->name = $_POST['name'];
+            $model->email = $_POST['email'];
+            $model->body = $_POST['body'];
+            if($model->validate()){
+                if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
+                    Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
+                }
+            }else {
+                Yii::$app->session->setFlash('error', 'There was an error sending email.');
             }
-        }else {
-            Yii::$app->session->setFlash('error', 'There was an error sending email.');
         }
 
         return $this->redirect('index#bottom');

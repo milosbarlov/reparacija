@@ -185,14 +185,15 @@ use yii\helpers\Url;
                     <p><img src="/images/fb.png"  alt="fb" /><a href="<?php echo $contact->excerpt?>" style="color:rgb(51, 51, 51);margin-left:3px;" target="_blank"><?php echo Yii::t('app',$contact->excerpt)?></a></p>
 
                     <form class="form-horizontal" action="<?php echo Url::toRoute('site/contact')?>" method="POST">
+                        <input type="hidden" name="<?= Yii::$app->request->csrfParam; ?>" value="<?= Yii::$app->request->csrfToken; ?>" />
                         <div class="form-group">
-                            <input type="text" name="ContactForm['name']" class="form-control" placeholder="Your Name..." maxlength="40" />
+                            <input type="text" name="name" class="form-control" placeholder="Your Name..." maxlength="40" />
                         </div>
                         <div class="form-group">
-                            <input type="email"  name="ContactForm['email']" class="form-control" placeholder="Your Email..." maxlength="40" />
+                            <input type="email"  name="email" class="form-control" placeholder="Your Email..." maxlength="40" />
                         </div>
                         <div class="form-group">
-                            <textarea  class="form-control"  name="ContactForm['body']" style="height: 130px;" placeholder="Write down your message..."></textarea>
+                            <textarea  class="form-control"  name="body" style="height: 130px;" placeholder="Write down your message..."></textarea>
                         </div>
                         <?php if(Yii::$app->session->hasFlash('error')){?>
                             <p style="color:red"><?php echo Yii::t('app',Yii::$app->session->getFlash('error')) ?></p>
