@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54c5fc30-2cc6-4ad1-ab79-529e31ecb117" name="Default" comment="change">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/web/uploads" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/web/assets/.gitignore" afterPath="$PROJECT_DIR$/backend/web/assets/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/web/assets/.gitignore" afterPath="$PROJECT_DIR$/frontend/web/assets/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/models/Partner.php" afterPath="$PROJECT_DIR$/common/models/Partner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/models/search/PartnerSearch.php" afterPath="$PROJECT_DIR$/common/models/search/PartnerSearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/models/search/UserSearch.php" afterPath="$PROJECT_DIR$/common/models/search/UserSearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messages/en/app.php" afterPath="$PROJECT_DIR$/messages/en/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/migrations/m150721_104443_isert_user_table.php" afterPath="$PROJECT_DIR$/console/migrations/m150721_104443_isert_user_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/migrations/m150729_105444_change_content_column.php" afterPath="$PROJECT_DIR$/console/migrations/m150729_105444_change_content_column.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/migrations/m150729_111012_change_field.php" afterPath="$PROJECT_DIR$/console/migrations/m150729_111012_change_field.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/migrations/m150729_115456_change_column.php" afterPath="$PROJECT_DIR$/console/migrations/m150729_115456_change_column.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messages/en/yii.php" afterPath="$PROJECT_DIR$/messages/en/yii.php" />
     </list>
     <ignored path="carpet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -158,38 +169,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="carpet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="carpet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="carpet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="carpet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -340,7 +319,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438336788098</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="change">
+      <created>1438336942730</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1438336942730</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
