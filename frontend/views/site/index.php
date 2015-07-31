@@ -16,7 +16,7 @@ use yii\helpers\Url;
                         <span class="icon-bar"></span>
                     </button>
                  <!--   <a href="#" class="navbar-brand"><img src="/images/templatemo_logo.png" alt="Urbanic template" title="Urbanic Template" /></a> -->
-                  <h2 style="text-transform: uppercase;position:relative;top:18px;color:#ff7600">reparacija i popravka persijskih tepiha</h2>
+                  <h3 style="font-size:30px;font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;position:relative;top:20px;color:#ff7600">Reparacija - popravka persijskih tepiha</h3>
                 </div>
                 <div class="navbar-collapse collapse" id="templatemo-nav-bar">
                     <ul class="nav navbar-nav navbar-right" style="margin-top: 40px;">
@@ -116,7 +116,7 @@ use yii\helpers\Url;
 
     </div>
 </div><!-- /.templatemo-team -->
-<?php if(!empty($productGallery)){?>
+
 <div id="templatemo-portfolio" >
     <div class="container">
         <div class="row">
@@ -135,10 +135,7 @@ use yii\helpers\Url;
         </div> <!-- /.row -->
 
         <div class="clearfix"></div>
-        <div class="text-center">
-
             <ul class="templatemo-project-gallery" >
-
                 <?php foreach($productGallery as $product){?>
                             <li class="col-lg-2 col-md-2 col-sm-2 gallery <?php echo 'gallery-'.$product->id ?>">
                                 <a class="colorbox" href="<?php echo $product->content ?>" data-group="<?php echo 'gallery-'.$product->id ?>">
@@ -151,14 +148,10 @@ use yii\helpers\Url;
                                 <?php if(!empty($product->galleryItems)){
                                     foreach($product->galleryItems as $key=>$val){?>
                                         <a class="colorbox" href="<?php echo $val['content'] ?>" data-group="<?php echo 'gallery-'.$product->id ?>"></a>
-                                <?php } ?>
+                                <?php }} ?>
                             </div>
-                <?php }}?>
-
+                <?php }?>
             </ul><!-- /.gallery -->
-        </div>
-        <?php }?>
-        <div class="clearfix"></div>
 
     </div><!-- /.container -->
 </div> <!-- /.templatemo-portfolio -->
