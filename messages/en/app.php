@@ -21,8 +21,10 @@ return [
     'GALERIJA' => '',
     'Galerija' => '',
     'Kontakt' => '',
+    'Naši partneri' => '',
     'O NAMA' => '',
     'O nama' => '',
     'Početna' => '',
+    'Vrati se na početak' => '',
     'pereca' => '@@@@',
 ];
