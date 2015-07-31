@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54c5fc30-2cc6-4ad1-ab79-529e31ecb117" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/005.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/050.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/052.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/057.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/hd-wallpaper-5985-6317-hd-wallpapers.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/untitled folder/11703509_847349245353447_5541577077188790543_o.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/runtime/.gitignore" afterPath="$PROJECT_DIR$/backend/runtime/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/.tmb/1cbb580ebbdabe1e582bdc532d549eaa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/.tmb/358e90507bedd4052bbe8922de137925.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/.tmb/8304d7f0d2deef843460047a23bd9aa9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/.tmb/c47c3a3df617c7f530fe6eface9cf1c3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/.tmb/c4bff42fdd70439c5814c60804a00877.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/.tmb/cb51063db9df3bd5c2a576a44c365d8f.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/web/.gitignore" afterPath="$PROJECT_DIR$/backend/web/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="carpet.iws" />
@@ -30,7 +30,18 @@
     <favorites_list name="carpet" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/web/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.05815832">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,11 +95,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/backend/views/site/index.php" />
-        <option value="$PROJECT_DIR$/backend/web/.gitignore" />
         <option value="$PROJECT_DIR$/backend/web/assets/.gitignore" />
         <option value="$PROJECT_DIR$/frontend/web/.gitignore" />
         <option value="$PROJECT_DIR$/frontend/web/assets/.gitignore" />
         <option value="$PROJECT_DIR$/backend/runtime/.gitignore" />
+        <option value="$PROJECT_DIR$/backend/web/.gitignore" />
       </list>
     </option>
   </component>
@@ -323,7 +334,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438333862124</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="change">
+      <created>1438334619810</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1438334619810</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -398,13 +415,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/config/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -657,14 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/ContentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="238" column="69" selection-start-line="238" selection-start-column="69" selection-end-line="238" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/console/migrations/m150729_115456_change_column.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.3333335">
@@ -755,10 +757,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.36486486">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/ContentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.081081">
+          <caret line="238" column="69" selection-start-line="238" selection-start-column="69" selection-end-line="238" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/web/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11631664">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.05815832">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
           <folding />
         </state>
       </provider>
