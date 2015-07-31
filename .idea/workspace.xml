@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54c5fc30-2cc6-4ad1-ab79-529e31ecb117" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/.tmb/1cbb580ebbdabe1e582bdc532d549eaa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/.tmb/358e90507bedd4052bbe8922de137925.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/.tmb/8304d7f0d2deef843460047a23bd9aa9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/.tmb/c47c3a3df617c7f530fe6eface9cf1c3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/.tmb/c4bff42fdd70439c5814c60804a00877.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/uploads/.tmb/cb51063db9df3bd5c2a576a44c365d8f.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/web/.gitignore" afterPath="$PROJECT_DIR$/backend/web/.gitignore" />
+    <list default="true" id="54c5fc30-2cc6-4ad1-ab79-529e31ecb117" name="Default" comment="change">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/web/uploads" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="carpet.iws" />
@@ -174,11 +168,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -192,7 +182,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,7 +334,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438334619810</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="change">
+      <created>1438336788098</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1438336788098</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
