@@ -4,7 +4,6 @@ namespace backend\controllers;
 
 use Yii;
 use common\models\Content;
-use common\models\search\ContentSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -20,6 +19,8 @@ use common\models\search\ProductGallerySearch;
 use common\models\Contact;
 use common\models\Partner;
 use common\models\search\PartnerSearch;
+use common\models\History;
+use common\models\Servicing;
 
 /**
  * ContentController implements the CRUD actions for Content model.
@@ -249,6 +250,54 @@ class ContentController extends Controller
         return $this->render('about_us',[
             'model' => $model,
         ]);
+
+    }
+
+    public function actionHistory()
+    {
+        $model = History::find()->where(['type'=>8])->one();
+
+        if(empty($model->attributes)){
+            $model = new History();
+        };
+        if(Yii::$app->request->isPost){
+            $model->attributes = Yii::$app->request->post('History');
+            $model->created_by = Yii::$app->user->identity->id;
+            $model->status = 1;
+
+            if($model->save()){
+                return $this->redirect(['history','model'=>$model]);
+            }
+        }
+
+        return $this->render('history',[
+            'model' => $model,
+        ]);
+
+
+    }
+
+    public function actionServicing()
+    {
+        $model = Servicing::find()->where(['type'=>9])->one();
+
+        if(empty($model->attributes)){
+            $model = new Servicing();
+        };
+        if(Yii::$app->request->isPost){
+            $model->attributes = Yii::$app->request->post('Servicing');
+            $model->created_by = Yii::$app->user->identity->id;
+            $model->status = 1;
+
+            if($model->save()){
+                return $this->redirect(['servicing','model'=>$model]);
+            }
+        }
+
+        return $this->render('servicing',[
+            'model' => $model,
+        ]);
+
 
     }
 

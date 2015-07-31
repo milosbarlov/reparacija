@@ -31,6 +31,8 @@ class Content extends ActiveRecord
     const PRODUCT_GALLERY_ITEM = 5;
     const CONTACT = 6;
     const PARTNER = 7;
+    const HISTORY = 8;
+    const SERVICING = 9;
 
 
     public function behaviors()

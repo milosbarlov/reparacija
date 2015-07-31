@@ -12,6 +12,8 @@ use common\models\AboutUs;
 use common\models\ProductGallery;
 use yii\helpers\Json;
 use common\models\Partner;
+use common\models\History;
+use common\models\Servicing;
 /**
  * Site controller
  */
@@ -84,6 +86,8 @@ class SiteController extends Controller
         $productGallery = ProductGallery::find()->andWhere(['status'=>1])->all();
         $contact = Contact::find()->one();
         $partners = Partner::find()->andWhere(['status'=>'1'])->all();
+        $history = History::find()->andWhere(['status'=>1])->one();
+        $servicing = Servicing::find()->andWhere(['status'=>1])->one();
 
         return $this->render('index',[
             'mainGallery'=>$mainGallery,
@@ -91,6 +95,8 @@ class SiteController extends Controller
             'productGallery'=>$productGallery,
             'contact'=>$contact,
             'partners'=>$partners,
+            'history'=>$history,
+            'servicing'=>$servicing
         ]);
     }
 

@@ -22,6 +22,12 @@ use yii\helpers\Url;
                     <ul class="nav navbar-nav navbar-right" style="margin-top: 40px;">
                         <li class="active"><a href="#templatemo-carousel" style="text-transform: uppercase"><?php echo Yii::t('app','Početna')?></a></li>
                         <li><a href="#templatemo-about" style="text-transform: uppercase"><?php echo Yii::t('app','O nama')?></a></li>
+                        <?php if(!empty($history)){?>
+                        <li><a href="#templatemo-history" style="text-transform: uppercase"><?php echo Yii::t('app','Istorijat')?></a></li>
+                        <?php }?>
+                        <?php if(!empty($servicing)){?>
+                            <li><a href="#templatemo-servicing" style="text-transform: uppercase"><?php echo Yii::t('app','Održavanje')?></a></li>
+                        <?php }?>
                         <li><a href="#templatemo-portfolio" style="text-transform: uppercase"><?php echo Yii::t('app','Galerija')?></a></li>
                         <li><a href="#templatemo-contact" style="text-transform: uppercase"><?php echo Yii::t('app','Kontakt')?></a></li>
                         <li>
@@ -116,6 +122,52 @@ use yii\helpers\Url;
 
     </div>
 </div><!-- /.templatemo-team -->
+
+<?php if(!empty($history)){?>
+    <div class="templatemo-tweets" id="templatemo-history" style="background: white!important;color:#333333;margin-top:0">
+        <div class="container">
+            <div class="row">
+                <div class="templatemo-line-header">
+                    <div class="text-center">
+                        <hr class="team_hr team_hr_left hr_gray" /><span style="text-transform: uppercase"><?php echo Yii::t('app','Istorijat tepiha')?></span>
+                        <hr class="team_hr team_hr_right hr_gray"  />
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+            <div style='padding-right:70px;text-align:left;margin-top:40px;font-size:15px;text-align: justify'>
+                <?php if(!empty($history)){?>
+                    <?php echo Yii::t('app',$history->content)?>
+                <?php }?>
+            </div>
+
+        </div>
+    </div><!-- /.templatemo-team -->
+
+<?php }?>
+
+<?php if(!empty($servicing)){?>
+    <div class="templatemo-tweets" id="templatemo-servicing">
+        <div class="container">
+            <div class="row">
+                <div class="templatemo-line-header">
+                    <div class="text-center">
+                        <hr class="team_hr team_hr_left"/><span style="text-transform: uppercase"><?php echo Yii::t('app','Održavanje')?></span>
+                        <hr class="team_hr team_hr_right" />
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+            <div style='padding-right:70px;text-align:left;margin-top:40px;font-size:15px;text-align: justify'>
+                <?php if(!empty($servicing)){?>
+                    <?php echo Yii::t('app',$servicing->content)?>
+                <?php }?>
+            </div>
+
+        </div>
+    </div><!-- /.templatemo-team -->
+
+<?php }?>
 
 <div id="templatemo-portfolio" >
     <div class="container">
