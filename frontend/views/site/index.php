@@ -200,7 +200,7 @@ use yii\helpers\Url;
                         <?php if(Yii::$app->session->hasFlash('success')){?>
                             <p style="color:green"><?php echo Yii::t('app',Yii::$app->session->getFlash('success')) ?></p>
                         <?php }?>
-                        <button id="bottom" type="submit" class="btn btn-orange pull-right"><?php echo Yii::t('app'.'Pošalji')?></button>
+                        <button id="bottom" type="submit" class="btn btn-orange pull-right"><?php echo Yii::t('app','Pošalji')?></button>
                     </form>
                 <?php }?>
             </div>

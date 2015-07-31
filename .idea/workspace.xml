@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54c5fc30-2cc6-4ad1-ab79-529e31ecb117" name="Default" comment="change">
+    <list default="true" id="54c5fc30-2cc6-4ad1-ab79-529e31ecb117" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/site/index.php" afterPath="$PROJECT_DIR$/frontend/views/site/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -38,8 +38,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6655405">
-              <caret line="207" column="30" selection-start-line="207" selection-start-column="30" selection-end-line="207" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.6047297">
+              <caret line="202" column="116" selection-start-line="202" selection-start-column="116" selection-end-line="202" selection-end-column="116" />
               <folding />
             </state>
           </provider>
@@ -384,7 +384,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438339728137</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="change">
+      <created>1438341211831</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1438341211831</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -821,8 +827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6655405">
-          <caret line="207" column="30" selection-start-line="207" selection-start-column="30" selection-end-line="207" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.6047297">
+          <caret line="202" column="116" selection-start-line="202" selection-start-column="116" selection-end-line="202" selection-end-column="116" />
           <folding />
         </state>
       </provider>
