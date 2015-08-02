@@ -11,7 +11,7 @@ use yii\helpers\Url;
         position:relative;
         top:200px;
         color:white;
-        z-index: 9999;
+        z-index: 2;
 
     }
 </style>
@@ -55,7 +55,7 @@ use yii\helpers\Url;
     </div> <!-- /container -->
 </div>
 
-<div style="width: 100%;text-align: center">
+<div style="width: 100%;text-align: center;">
     <h3 id="header">Reparacija - popravka persijskih tepiha</h3>
 </div>
 
