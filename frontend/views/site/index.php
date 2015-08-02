@@ -61,6 +61,7 @@ use yii\helpers\Url;
 
 <div>
     <!-- Carousel -->
+
     <div id="templatemo-carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
