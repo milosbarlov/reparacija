@@ -3,6 +3,19 @@
 use yii\helpers\Url;
 
 ?>
+<style>
+    #header{
+        font-size:30px;
+        font-family:
+        ‘Metrophobic’, Arial, serif;
+        font-weight: 400;
+        position:relative;
+        top:220px;
+        color:white;
+        z-index: 9999;
+        left:30%;
+    }
+</style>
 <div class="templatemo-top-menu" id="templatemo-top">
     <div class="container">
         <!-- Static navbar -->
@@ -16,7 +29,7 @@ use yii\helpers\Url;
                         <span class="icon-bar"></span>
                     </button>
                  <!--   <a href="#" class="navbar-brand"><img src="/images/templatemo_logo.png" alt="Urbanic template" title="Urbanic Template" /></a> -->
-                  <h3 style="font-size:30px;font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;position:relative;top:20px;color:#ff7600">Reparacija - popravka persijskih tepiha</h3>
+
                 </div>
                 <div class="navbar-collapse collapse" id="templatemo-nav-bar">
                     <ul class="nav navbar-nav navbar-right" style="margin-top: 40px;">
@@ -44,6 +57,9 @@ use yii\helpers\Url;
 </div>
 
 <div>
+    <div style="width: 100%">
+        <h3 id="header">Reparacija - popravka persijskih tepiha</h3>
+    </div>
     <!-- Carousel -->
     <div id="templatemo-carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -227,7 +243,7 @@ use yii\helpers\Url;
                 <?php if(!empty($contact)){?>
                     <p><img src="/images/location.png" alt="icon 1" /><?php echo Yii::t('app',$contact->title)?></p>
                     <p><img src="/images/phone1.png"  alt="icon 2" /><?php echo Yii::t('app',$contact->content) ?></p>
-                    <p><img src="/images/fb.png"  alt="fb" /><a href="<?php echo $contact->excerpt?>" style="color:rgb(51, 51, 51);margin-left:3px;" target="_blank"><?php echo Yii::t('app',$contact->excerpt)?></a></p>
+                    <p><img src="/images/fb.png"  alt="fb" /><a href="<?php echo $contact->excerpt?>" style="color:rgb(51, 51, 51);margin-left:3px;" target="_blank"><?php echo Yii::t('app','reparacija-popravka persijskih tepiha')?></a></p>
 
                     <form class="form-horizontal" action="<?php echo Url::toRoute('site/contact')?>" method="POST">
                         <input type="hidden" name="<?= Yii::$app->request->csrfParam; ?>" value="<?= Yii::$app->request->csrfToken; ?>" />
