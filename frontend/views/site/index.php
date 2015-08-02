@@ -5,15 +5,14 @@ use yii\helpers\Url;
 ?>
 <style>
     #header{
-        font-size:30px;
-        font-family:
-        ‘Metrophobic’, Arial, serif;
+        font-size:40px;
+        font-family: ‘Metrophobic’, Arial, serif;
         font-weight: 400;
         position:relative;
         top:220px;
         color:white;
         z-index: 9999;
-        left:30%;
+        left:24%;
     }
 </style>
 <div class="templatemo-top-menu" id="templatemo-top">
@@ -209,6 +208,9 @@ use yii\helpers\Url;
                                 <a class="colorbox" href="<?php echo $product->content ?>" data-group="<?php echo 'gallery-'.$product->id ?>">
                                     <div class="templatemo-project-box">
                                         <img src="<?php echo $product->content?>" class="img-responsive" alt="gallery" style='height:100%;width:100%' /> <!-- main img -->
+                                        <div class="project-overlay">
+                                            <h4><?php echo Yii::t('app',$product->title)?></h4>
+                                        </div>
                                     </div>
                                 </a>
                             </li>
