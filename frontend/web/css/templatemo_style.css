@@ -686,6 +686,9 @@ ul.templatemo-project-gallery  li  a img:hover {
 	.templatemo-header-orange {
 		min-width: 0px;
 	}
+    #language{
+        margin-left:20px !important;
+    }
 	
 }
 

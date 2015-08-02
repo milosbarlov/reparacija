@@ -12,7 +12,6 @@ use yii\helpers\Url;
         top:100px;
         color:white;
         z-index: 2;
-
     }
 </style>
 <div class="templatemo-top-menu" id="templatemo-top">
