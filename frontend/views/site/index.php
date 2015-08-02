@@ -9,10 +9,10 @@ use yii\helpers\Url;
         font-family: ‘Metrophobic’, Arial, serif;
         font-weight: 400;
         position:relative;
-        top:220px;
+        top:200px;
         color:white;
         z-index: 9999;
-        left:24%;
+
     }
 </style>
 <div class="templatemo-top-menu" id="templatemo-top">
@@ -55,10 +55,11 @@ use yii\helpers\Url;
     </div> <!-- /container -->
 </div>
 
+<div style="width: 100%;text-align: center">
+    <h3 id="header">Reparacija - popravka persijskih tepiha</h3>
+</div>
+
 <div>
-    <div style="width: 100%">
-        <h3 id="header">Reparacija - popravka persijskih tepiha</h3>
-    </div>
     <!-- Carousel -->
     <div id="templatemo-carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
