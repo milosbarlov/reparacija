@@ -59,7 +59,7 @@ use yii\helpers\Url;
     <h3 id="header">Reparacija - popravka persijskih tepiha</h3>
 </div>
 
-<div>
+<div style="position:relative;top:-44px">
     <!-- Carousel -->
 
     <div id="templatemo-carousel" class="carousel slide" data-ride="carousel">
