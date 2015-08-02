@@ -9,7 +9,7 @@ use yii\helpers\Url;
         font-family: ‘Metrophobic’, Arial, serif;
         font-weight: 400;
         position:relative;
-        top:200px;
+        top:100px;
         color:white;
         z-index: 2;
 
