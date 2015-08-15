@@ -374,7 +374,7 @@ class ContentController extends Controller
 
         if(Yii::$app->request->isPost){
             $model->attributes = Yii::$app->request->post('Partner');
-            if(Yii::$app->request->post('Partner')['title'] == null){
+            if(Yii::$app->request->post('Partner')['title'] == null ){
                 $model->title = 'title';
             }
             $model->created_by = Yii::$app->user->identity->id;
@@ -396,7 +396,10 @@ class ContentController extends Controller
 
         if(Yii::$app->request->isPost){
             $model->attributes = Yii::$app->request->post('Partner');
-            $model->title = 'title';
+            if(Yii::$app->request->post('Partner')['title'] == null ){
+                $model->title = 'title';
+            }
+
             if($model->save()){
                 return $this->redirect(['content/partner-view','id'=>$model->id]);
             }else{

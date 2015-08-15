@@ -17,7 +17,7 @@ use yii\helpers\Url;
 <div class="templatemo-top-menu" id="templatemo-top">
     <div class="container">
         <!-- Static navbar -->
-        <div class="navbar navbar-default" role="navigation">
+        <div class="navbar navbar-default" role="navigation" id="blue">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -55,7 +55,7 @@ use yii\helpers\Url;
 </div>
 
 <div style="width: 100%;text-align: center;">
-    <h3 id="header">Reparacija - popravka persijskih tepiha</h3>
+    <h3 id="header" style="font-family: 'Great Vibes', cursive;font-size: 82px">Reparacija - popravka persijskih tepiha</h3>
 </div>
 
 <div style="position:relative;top:-44px">
@@ -94,8 +94,8 @@ use yii\helpers\Url;
 <div class="templatemo-welcome" id="templatemo-welcome">
     <div class="container">
         <div class="templatemo-slogan text-center">
-            <span class="txt_darkgrey"><?php echo Yii::t('app','Dobrodošli')?> </span><span class="txt_orange"></span>
-           <!-- <p class="txt_slogan"><i>Lorem ipsum dolor sit amet, consect adipiscing elit. Etiam metus libero mauriec ignissim fermentum.</i></p> -->
+            <span class="txt_darkgrey" style="font-family: 'Great Vibes', cursive;font-size: 82px"><?php echo Yii::t('app','Dobrodošli')?> </span><span class="txt_orange"></span><br>
+            <span class="txt_darkgrey" style="font-family: 'Great Vibes', cursive;font-size: 72px"><?php echo Yii::t('app','Zanatska radionica Ivanović')?> </span><span style="font-family: 'Great Vibes', cursive;font-size: 52px">osnovana 1992.</span>
         </div>
     </div>
 </div>
