@@ -26,7 +26,7 @@ use yii\helpers\Url;
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                 <!--   <a href="#" class="navbar-brand"><img src="/images/templatemo_logo.png" alt="Urbanic template" title="Urbanic Template" /></a> -->
+                   <!-- <a href="#" class="navbar-brand"><img src="/images/templatemo_logo.png" alt="Urbanic template" title="Urbanic Template" /></a> -->
 
                 </div>
                 <div class="navbar-collapse collapse" id="templatemo-nav-bar">
@@ -84,23 +84,6 @@ use yii\helpers\Url;
                     </div>
 
             <?php } }?>
-        <!--
-            <div class="item active">
-                <div class="item">
-                    <img src="img1.jpg" style='width:100%;'/>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item">
-                    <img src="img2.jpg" style='width:100%'/>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item">
-                    <img src="img3.jpg" style='width:100%'/>
-                </div>
-            </div>
--->
 
         </div>
         <a class="left carousel-control" href="#templatemo-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
@@ -140,7 +123,7 @@ use yii\helpers\Url;
 </div><!-- /.templatemo-team -->
 
 <?php if(!empty($history)){?>
-    <div class="templatemo-tweets" id="templatemo-history" style="background: white!important;color:#333333;margin-top:0">
+    <div class="templatemo-tweets" id="templatemo-history" style="">
         <div class="container">
             <div class="row">
                 <div class="templatemo-line-header">
@@ -203,27 +186,28 @@ use yii\helpers\Url;
         </div> <!-- /.row -->
 
         <div class="clearfix"></div>
-            <ul class="templatemo-project-gallery" >
-                <?php foreach($productGallery as $product){?>
-                            <li class="col-lg-2 col-md-2 col-sm-2 gallery <?php echo 'gallery-'.$product->id ?>">
-                                <a class="colorbox" href="<?php echo $product->content ?>" data-group="<?php echo 'gallery-'.$product->id ?>">
-                                    <div class="templatemo-project-box">
-                                        <img src="<?php echo $product->content?>" class="img-responsive" alt="gallery" style='height:100%;width:100%' /> <!-- main img -->
-                                        <div class="project-overlay">
-                                            <h4><?php echo Yii::t('app',$product->title)?></h4>
+            <div class="container-fluid">
+                <div class="templatemo-project-gallery row" >
+                    <?php foreach($productGallery as $product){?>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6  gallery <?php echo 'gallery-'.$product->id ?>" style="margin-bottom: 15px">
+                                    <a class="colorbox" href="<?php echo $product->content ?>" data-group="<?php echo 'gallery-'.$product->id ?>">
+                                        <div class="templatemo-project-box" style="padding:0 10px">
+                                            <img src="<?php echo $product->content?>" class="img-responsive" alt="gallery" style='height:100%;width:100%' /> <!-- main img -->
+                                            <div class="project-overlay">
+                                                <h4><?php echo Yii::t('app',$product->title)?></h4>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <div class="hidden">
-                                <?php if(!empty($product->galleryItems)){
-                                    foreach($product->galleryItems as $key=>$val){?>
-                                        <a class="colorbox" href="<?php echo $val['content'] ?>" data-group="<?php echo 'gallery-'.$product->id ?>"></a>
-                                <?php }} ?>
-                            </div>
-                <?php }?>
-            </ul><!-- /.gallery -->
-
+                                    </a>
+                                </div>
+                                <div class="hidden">
+                                    <?php if(!empty($product->galleryItems)){
+                                        foreach($product->galleryItems as $key=>$val){?>
+                                            <a class="colorbox" href="<?php echo $val['content'] ?>" data-group="<?php echo 'gallery-'.$product->id ?>"></a>
+                                    <?php }} ?>
+                                </div>
+                    <?php }?>
+                </div><!-- /.gallery -->
+            </div>
     </div><!-- /.container -->
 </div> <!-- /.templatemo-portfolio -->
 
@@ -246,7 +230,7 @@ use yii\helpers\Url;
                 <?php if(!empty($contact)){?>
                     <p><img src="/images/location.png" alt="icon 1" /><?php echo Yii::t('app',$contact->title)?></p>
                     <p><img src="/images/phone1.png"  alt="icon 2" /><?php echo Yii::t('app',$contact->content) ?></p>
-                    <p><img src="/images/fb.png"  alt="fb" /><a href="<?php echo $contact->excerpt?>" style="color:rgb(51, 51, 51);margin-left:3px;" target="_blank"><?php echo Yii::t('app','reparacija-popravka persijskih tepiha')?></a></p>
+                    <p><img src="/images/facebook.png"  alt="" /><a href="<?php echo $contact->excerpt?>" style="color:rgb(51, 51, 51);margin-left:3px;" target="_blank"><?php echo Yii::t('app','reparacija-popravka persijskih tepiha')?></a></p>
 
                     <form class="form-horizontal" action="<?php echo Url::toRoute('site/contact')?>" method="POST">
                         <input type="hidden" name="<?= Yii::$app->request->csrfParam; ?>" value="<?= Yii::$app->request->csrfToken; ?>" />
@@ -277,8 +261,6 @@ use yii\helpers\Url;
 <div class="templatemo-partners" style="border:none" >
     <div class="container">
         <div class="row">
-
-
             <div class="templatemo-line-header" >
                 <div class="text-center">
                     <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey" style="text-transform: uppercase;"><?php  echo Yii::t('app','Naši partneri')?></span>
@@ -288,20 +270,24 @@ use yii\helpers\Url;
             <div class="clearfix"></div>
 
 
-            <div class="text-center">
+            <div class="container-fluid " >
 
                 <div style="margin-top:60px;">
-                    <ul class="list-inline">
+                    <div class="row">
                         <?php foreach($partners as $partner){?>
-                            <li class="col-sm-2 col-md-2 templatemo-partner-item">
-                                <a href="<?php echo $partner['content']?>" style="font-size: 30px;color:#ff7600" target="_blank"><?php echo $partner['excerpt']?></a>
-                            </li>
+                            <div class="col-md-3 col-sm-3 col-xs-3 text-center">
+                                <a href="<?php echo $partner['content']?>" style="font-size: 30px;color:#ff7600" target="_blank"><?php echo $partner['excerpt']?></a><br>
+                                <?php if($partner['title'] !== 'title'){?>
+                                    <img src="<?php echo $partner['title']?>" width="150" height="150">
+                                <?php }?>
+                            </div>
                         <?php }?>
-                    </ul>
+                    </div>
 
                 </div>
-
             </div>
+
+
         </div>
     </div>
 </div>

@@ -374,7 +374,9 @@ class ContentController extends Controller
 
         if(Yii::$app->request->isPost){
             $model->attributes = Yii::$app->request->post('Partner');
-            $model->title = 'title';
+            if(Yii::$app->request->post('Partner')['title'] == null){
+                $model->title = 'title';
+            }
             $model->created_by = Yii::$app->user->identity->id;
             if($model->save()){
                 return $this->redirect(['content/partner-view','id'=>$model->id]);

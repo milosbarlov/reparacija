@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-team {
-    background: url('../images/background.png') ; 
+    background: url('../images/onama.jpg') ;
     font-family:  'Open Sans', sans-serif;
     min-height:590px;
     color:#ffffff;
@@ -569,12 +569,17 @@ ul.templatemo-project-gallery  li  a img:hover {
 }
 
 .templatemo-tweets {
-    background-color: #8996a0;
+    background:url('../images/istorijat.jpg');
     min-height:200px;
     font-family:  'Open Sans', sans-serif;
     font-size:20px;
     color:#ffffff;
-    margin-top:100px;
+    margin-top:0px;
+}
+#templatemo-servicing{
+    background-image: url("../images/odrzavanje.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .form-control {
@@ -594,6 +599,10 @@ ul.templatemo-project-gallery  li  a img:hover {
 
 .blog_box {
 	margin-left: -12px;
+}
+
+#templatemo-about{
+
 }
 
 @media (min-width:991px) and (max-width:1200px) {

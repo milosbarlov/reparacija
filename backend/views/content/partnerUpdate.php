@@ -23,6 +23,11 @@ use yii\widgets\ActiveForm;
 
    <?php echo $form->field($model, 'status')->dropDownList($model->getStatus());?>
 
+    <?php echo $form->field($model, 'title')->widget(
+        zxbodya\yii2\elfinder\ElFinderInput::className(),
+        ['connectorRoute' => 'content/connector',]
+    ) ?>
+
     <div class="form-group">
         <?= Html::submitButton('Submit', ['class' =>'btn btn-primary']) ?>
     </div>
