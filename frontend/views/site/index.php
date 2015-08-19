@@ -6,10 +6,10 @@ use yii\helpers\Url;
 <style>
 
 </style>
-<div class="templatemo-top-menu" id="templatemo-top">
-    <div class="container">
+<div class="templatemo-top-menu" id="templatemo-top" >
+    <div class="container" style="">
         <!-- Static navbar -->
-        <div class="navbar navbar-default" role="navigation" id="blue">
+        <div class="navbar navbar-default" role="navigation" style="background: #eee">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">

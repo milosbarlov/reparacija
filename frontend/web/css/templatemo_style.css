@@ -43,9 +43,12 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .templatemo-top-menu {
     min-height:110px;
-    background: white;
+    background: #eee;
     z-index: 5000;
     width:100%;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    background: #eee;
 }
 #templatemo-portfolio{
 
