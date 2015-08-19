@@ -4,15 +4,7 @@ use yii\helpers\Url;
 
 ?>
 <style>
-    #header{
-        font-size:40px;
-        font-family: ‘Metrophobic’, Arial, serif;
-        font-weight: 400;
-        position:relative;
-        top:100px;
-        color:white;
-        z-index: 2;
-    }
+
 </style>
 <div class="templatemo-top-menu" id="templatemo-top">
     <div class="container">
@@ -54,7 +46,7 @@ use yii\helpers\Url;
     </div> <!-- /container -->
 </div>
 
-<div style="width: 100%;text-align: center;">
+<div style="width: 100%;text-align: center;height:0">
     <h3 id="header" style="font-family: 'Great Vibes', cursive;font-size: 82px">Reparacija - popravka persijskih tepiha</h3>
 </div>
 
@@ -95,7 +87,7 @@ use yii\helpers\Url;
     <div class="container">
         <div class="templatemo-slogan text-center">
             <span class="txt_darkgrey" style="font-family: 'Great Vibes', cursive;font-size: 82px"><?php echo Yii::t('app','Dobrodošli')?> </span><span class="txt_orange"></span><br>
-            <span class="txt_darkgrey" style="font-family: 'Great Vibes', cursive;font-size: 72px"><?php echo Yii::t('app','Zanatska radionica Ivanović')?> </span><span style="font-family: 'Great Vibes', cursive;font-size: 52px">osnovana 1992.</span>
+            <span class="txt_darkgrey" style="font-family: 'Great Vibes', cursive;font-size: 72px"><?php echo Yii::t('app','Zanatska radionica Ivanović')?> </span><span style="font-family: 'Great Vibes', cursive;font-size: 52px"><?php Yii::t('app','osnovana 1992')?></span>
         </div>
     </div>
 </div>

@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .templatemo-top-menu {
     min-height:110px;
-    background:white;
+    background: white;
     z-index: 5000;
     width:100%;
 }
@@ -51,8 +51,11 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 
 }
+.navbar-default .navbar-nav > li > a{
+    color:black;
+}
 #blue{
-    background: white;
+
 }
 
 .templatemo-top-menu .navbar-toggle {
@@ -613,6 +616,20 @@ ul.templatemo-project-gallery  li  a img:hover {
 #templatemo-about{
 
 }
+#header{
+    font-size:40px;
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-weight: 400;
+    position:relative;
+    top:100px;
+    color:white;
+    z-index: 2;
+}
+@media (max-width:990px) {
+    #header{
+
+    }
+}
 
 @media (min-width:991px) and (max-width:1200px) {
     .templatemo-project-box, .project-overlay {
@@ -709,6 +726,8 @@ ul.templatemo-project-gallery  li  a img:hover {
     }
 	
 }
+
+
 
 @media (min-width:991px) and (max-width: 1200px) {
 	 .team_hr {
