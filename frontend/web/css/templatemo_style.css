@@ -625,10 +625,24 @@ ul.templatemo-project-gallery  li  a img:hover {
     color:white;
     z-index: 2;
 }
-@media (max-width:990px) {
-    #header{
 
-    }
+.partners:before,
+.partners:after {
+    background-color: #cccccc;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.partners:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.partners:after {
+    left: 0.5em;
+    margin-right: -50%;
 }
 
 @media (min-width:991px) and (max-width:1200px) {

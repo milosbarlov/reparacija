@@ -252,13 +252,16 @@ use yii\helpers\Url;
 
 <?php if(!empty($partners)){?>
 <div class="templatemo-partners" style="border:none" >
-    <div class="container">
+    <div class="container" style="overflow: hidden">
         <div class="row">
-            <div class="templatemo-line-header" >
-                <div class="text-center">
-                    <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey" style="text-transform: uppercase;"><?php  echo Yii::t('app','Naši partneri')?></span>
-                    <hr class="team_hr team_hr_right hr_gray" />
+            <div class="templatemo-line-header text-center" style="position: relative;">
+                <!--
+                <div class="row">
+                    <hr class="team_hr team_hr_left hr_gray" style=""/><span class="txt_darkgrey" style="text-transform: uppercase;"><?php  echo Yii::t('app','Naši partneri')?></span>
+                    <hr class="team_hr team_hr_right hr_gray" style="" />
                 </div>
+                -->
+                <h1 class="partners" style="text-transform: uppercase;font-size: 18px;color:#333333;font-weight: 300    "><?php  echo Yii::t('app','Naši partneri')?></h1>
             </div>
             <div class="clearfix"></div>
 
