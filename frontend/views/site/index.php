@@ -47,7 +47,7 @@ use yii\helpers\Url;
 </div>
 
 <div style="width: 100%;text-align: center;height:0">
-    <h3 id="header" style="font-family: 'Great Vibes', cursive;font-size: 82px">Reparacija - popravka persijskih tepiha</h3>
+    <h3 id="header" style="font-family: 'Great Vibes', cursive;font-size: 82px"><?php echo Yii::t('app','Reparacija - popravka persijskih tepiha');?></h3>
 </div>
 
 <div style="position:relative;top:-44px">
