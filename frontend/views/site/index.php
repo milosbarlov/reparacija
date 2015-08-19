@@ -87,7 +87,7 @@ use yii\helpers\Url;
     <div class="container">
         <div class="templatemo-slogan text-center">
             <span class="txt_darkgrey" style="font-family: 'Great Vibes', cursive;font-size: 82px"><?php echo Yii::t('app','Dobrodošli')?> </span><span class="txt_orange"></span><br>
-            <span class="txt_darkgrey" style="font-family: 'Great Vibes', cursive;font-size: 72px"><?php echo Yii::t('app','Zanatska radionica Ivanović')?> </span><span style="font-family: 'Great Vibes', cursive;font-size: 52px"><?php Yii::t('app','osnovana 1992')?></span>
+            <span class="txt_darkgrey" style="font-family: 'Great Vibes', cursive;font-size: 72px"><?php echo Yii::t('app','Zanatska radionica Ivanović')?> </span><span style="font-family: 'Great Vibes', cursive;font-size: 52px"><?php echo Yii::t('app','osnovana 1992')?></span>
         </div>
     </div>
 </div>
