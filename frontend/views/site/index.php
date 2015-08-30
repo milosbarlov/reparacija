@@ -95,9 +95,9 @@ use yii\helpers\Url;
 
 
 
-<div class="templatemo-team" id="templatemo-about" style="padding: 20px 60px;">
+<div class="templatemo-team" id="templatemo-about" style="padding: 20px  60px;">
     <div style="width:100%;height:100%;background:#731923;">
-    <div class="container">
+    <div class="container" >
         <div class="row">
             <div class="templatemo-line-header">
                 <div class="text-center">
@@ -106,7 +106,7 @@ use yii\helpers\Url;
                 </div>
             </div>
         </div>
-        <div class="clearfix"> </div>
+        <div class="clearfix"></div>
         <div style='padding-right:70px;text-align:left;margin-top:40px;font-size:15px;text-align: justify'>
             <?php if(!empty($aboutUs)){?>
                 <?php echo Yii::t('app',$aboutUs->content)?>
