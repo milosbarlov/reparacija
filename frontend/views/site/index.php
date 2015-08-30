@@ -95,7 +95,8 @@ use yii\helpers\Url;
 
 
 
-<div class="templatemo-team" id="templatemo-about">
+<div class="templatemo-team" id="templatemo-about" style="padding:20px;">
+    <div style="width:100%;height:100%;background:#731923;">
     <div class="container">
         <div class="row">
             <div class="templatemo-line-header">
@@ -113,10 +114,12 @@ use yii\helpers\Url;
         </div>
 
     </div>
+    </div>
 </div><!-- /.templatemo-team -->
 
 <?php if(!empty($history)){?>
-    <div class="templatemo-tweets" id="templatemo-history" style="">
+    <div class="templatemo-tweets" id="templatemo-history" style="padding: 20px;margin-top:20px;">
+        <div style="width:100%;height:100%;background:#731923;">
         <div class="container">
             <div class="row">
                 <div class="templatemo-line-header">
@@ -134,12 +137,14 @@ use yii\helpers\Url;
             </div>
 
         </div>
+        </div>
     </div><!-- /.templatemo-team -->
 
 <?php }?>
 
 <?php if(!empty($servicing)){?>
-    <div class="templatemo-tweets" id="templatemo-servicing">
+    <div class="templatemo-tweets" id="templatemo-servicing" style="margin-top:10px;padding:20px;">
+        <div style="width:100%;height:100%;background:#731923;">
         <div class="container">
             <div class="row">
                 <div class="templatemo-line-header">
@@ -156,6 +161,7 @@ use yii\helpers\Url;
                 <?php }?>
             </div>
 
+        </div>
         </div>
     </div><!-- /.templatemo-team -->
 
