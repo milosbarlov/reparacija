@@ -68,10 +68,10 @@ jQuery(function($) {
 function initialize() {
     var mapOptions = {
       zoom: 16,
-      center: new google.maps.LatLng(44.8212462,20.3872845)
+      center: new google.maps.LatLng(44.817413, 20.382260)
     };
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(44.8212462,20.3872845)
+        position: new google.maps.LatLng(44.817413, 20.382260)
     });
 
     var map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
