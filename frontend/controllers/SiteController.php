@@ -129,20 +129,20 @@ class SiteController extends Controller
     public function actionContact()
     {
         $model = new ContactForm();
-        if (Yii::$app->request->isPost) {
+        if (Yii::$app->request->isPost && Yii::$app->request->post('name') && Yii::$app->request->post('email') && Yii::$app->request->post('body')) {
             $model->name = $_POST['name'];
             $model->email = $_POST['email'];
             $model->body = $_POST['body'];
             if($model->validate()){
                 if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
-                    Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
+                    Yii::$app->session->setFlash('success',Yii::t('app', 'Hvala što ste nas kontaktirali'));
                 }
             }else {
-                Yii::$app->session->setFlash('error', 'There was an error sending email.');
+                Yii::$app->session->setFlash('error', 'Došlo je do greške prilikom slanja email-a. Molim vas pokušajte ponovo');
             }
         }
 
-        return $this->redirect('index#bottom');
+        return $this->redirect('index#templatemo-contact');
     }
 
     public function actionChangeLanguage()
