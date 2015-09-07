@@ -54,7 +54,7 @@ use yii\helpers\Url;
 <div style="position:relative;top:-44px">
     <!-- Carousel -->
 
-    <div id="templatemo-carousel" class="carousel slide" data-ride="carousel">
+    <div id="templatemo-carousel" class="carousel slide" data-ride="carousel" data-interval="2500">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <?php if(!empty($mainGallery) && !empty($mainGallery->galleryItems)){
