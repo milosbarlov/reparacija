@@ -20,9 +20,6 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-    <?= GATracking::widget([
-        'trackingId' => 'UA-105591252-1',
-    ]) ?>
 </head>
 <body>
 

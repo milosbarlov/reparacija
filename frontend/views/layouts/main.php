@@ -22,8 +22,10 @@ AppAsset::register($this);
     <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,600,600italic,400italic,800,800italic&subset=latin,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Great+Vibes&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
     <?php $this->head() ?>
+    <?= GATracking::widget([
+        'trackingId' => 'UA-105591252-1',
+    ]) ?>
 </head>
 <body>
     <?php $this->beginBody() ?>
