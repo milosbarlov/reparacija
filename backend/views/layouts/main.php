@@ -4,6 +4,7 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
+use cybercog\yii\googleanalytics\widgets\GATracking;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
@@ -19,8 +20,12 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+    <?= GATracking::widget([
+        'trackingId' => 'UA-105591252-1',
+    ]) ?>
 </head>
 <body>
+
     <?php $this->beginBody() ?>
     <div class="wrap">
         <?php
