@@ -7,6 +7,7 @@ use frontend\assets\AppAsset;
 use frontend\widgets\Alert;
 use cybercog\yii\googleanalytics\widgets\GATracking;
 
+
 /* @var $this \yii\web\View */
 /* @var $content string */
 
